@@ -70,7 +70,7 @@ $delete
     ->where('id', '>', 5);
 
 
-echo json_encode($select->getResult());
+//echo json_encode($select->getResult());
 // echo json_encode($insert->getResult());
 // echo json_encode($update->getResult());
-// echo json_encode($delete->getResult());
+ echo json_encode($delete->getResult());
