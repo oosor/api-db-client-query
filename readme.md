@@ -12,6 +12,23 @@
 3. Обновления данных в Базе данных.
 4. Удаления данных в Базе данных.
 
+## Установка 
+
+в вашем приложении в `composer.json` добавте:
+```json
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://gitlab.com/api-db/client-php-query"
+    }
+  ],
+  "require": {
+    "oosor/client-php-query": "~1.0.0"
+  }
+}
+```
+
 ## Получение данных с Базы данных
 
 ```php
