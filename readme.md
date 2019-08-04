@@ -1,6 +1,6 @@
 # Библиотека для работы с сервером API Базы данных (конструктор запросов для работы с данными в БД)
 
-Сервер [API Базы данных](https://gitlab.com/api-db/server)
+Сервер [API Базы данных](https://github.com/oosor/api-db)
 
 Библиотека возлагает на себя построение сложных запросов по работе с данными в Базе данных и предоставляет
 простой интерфейс конструктора запросов.
@@ -20,11 +20,11 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://gitlab.com/api-db/client-php-query"
+      "url": "https://github.com/oosor/api-db-client-query"
     }
   ],
   "require": {
-    "oosor/client-php-query": "~1.0.0"
+    "oosor/api-db-client-query": "~1.0.0"
   }
 }
 ```
